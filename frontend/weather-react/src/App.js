@@ -1,8 +1,15 @@
 import React, { useState } from "react";
+import Unsplash, { toJson } from "unsplash-js";
+
 const api = {
   key: "2cedf13fcae3c8e374427e597af727f0",
   base: "https://api.openweathermap.org/data/2.5/"
 };
+
+const unsplash = new Unsplash({
+  accessKey: "0b305e533471e596c2669d024fd79675086d9aa45b76d8ea037bfbbd22165027",
+  secret: "0221ffda26394dff558232bcf2f24e967a24a2ed18e9ebc808b20fb90a0ac43f"
+});
 
 function App() {
   const [query, setQuery] = useState("");
@@ -52,17 +59,15 @@ function App() {
 
     return `${day} ${date} ${month} ${year}`;
   };
-
+  let bg = unsplash.search
+    .collections(`${query}`, 1)
+    .then(toJson)
+    .then(json => {
+      // Your code
+    });
+  console.log(bg);
   return (
-    <div
-      className={
-        typeof weather.main != "undefined"
-          ? weather.main.temp > 16
-            ? "app warm"
-            : "app"
-          : "app"
-      }
-    >
+    <div>
       <main>
         <div className="search-box">
           <input

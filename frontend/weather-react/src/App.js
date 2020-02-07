@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Unsplash, { toJson } from "unsplash-js";
+import Unsplash from "unsplash-js";
 
 const api = {
   key: "2cedf13fcae3c8e374427e597af727f0",
@@ -8,7 +8,8 @@ const api = {
 
 const unsplash = new Unsplash({
   accessKey: "0b305e533471e596c2669d024fd79675086d9aa45b76d8ea037bfbbd22165027",
-  secret: "0221ffda26394dff558232bcf2f24e967a24a2ed18e9ebc808b20fb90a0ac43f"
+  secret: "0221ffda26394dff558232bcf2f24e967a24a2ed18e9ebc808b20fb90a0ac43f",
+  base: `https://api.unsplash.com/search/photos?client_id=0b305e533471e596c2669d024fd79675086d9aa45b76d8ea037bfbbd22165027&`
 });
 
 function App() {
@@ -26,6 +27,25 @@ function App() {
         });
     }
   };
+  let bg = "";
+
+  const [city, setCity] = useState({});
+  const background = x => {
+    if (x.key === "Enter") {
+      fetch(
+        `https://api.unsplash.com/search/photos?client_id=0b305e533471e596c2669d024fd79675086d9aa45b76d8ea037bfbbd22165027&query=${query}`
+      ) /* Temporary string */
+        .then(res => res.json())
+        .then(result => {
+          setCity(result);
+          setQuery("");
+          console.log(result);
+          setBg();
+        });
+    }
+  };
+
+  // bg = city.results[0].urls.full;
 
   const dateBuilder = d => {
     let months = [
@@ -59,15 +79,13 @@ function App() {
 
     return `${day} ${date} ${month} ${year}`;
   };
-  let bg = unsplash.search
-    .collections(`${query}`, 1)
-    .then(toJson)
-    .then(json => {
-      // Your code
-    });
-  console.log(bg);
   return (
-    <div>
+    <div
+      className="main-background"
+      style={{
+        backgroundImage: `url(${bg})`
+      }}
+    >
       <main>
         <div className="search-box">
           <input
@@ -76,7 +94,10 @@ function App() {
             placeholder="Szukaj..."
             onChange={e => setQuery(e.target.value)}
             value={query}
-            onKeyPress={search}
+            onKeyPress={e => {
+              search(e);
+              background(e);
+            }}
           />
         </div>
         {typeof weather.main != "undefined" ? (

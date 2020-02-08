@@ -27,20 +27,20 @@ function App() {
         });
     }
   };
-  let bg = "";
 
   const [city, setCity] = useState({});
+  const [bg, setBg] = useState({});
   const background = x => {
     if (x.key === "Enter") {
       fetch(
-        `https://api.unsplash.com/search/photos?client_id=0b305e533471e596c2669d024fd79675086d9aa45b76d8ea037bfbbd22165027&query=${query}`
+        `https://api.unsplash.com/search/photos?client_id=0b305e533471e596c2669d024fd79675086d9aa45b76d8ea037bfbbd22165027&query=${query}&per_page=1`
       ) /* Temporary string */
         .then(res => res.json())
         .then(result => {
           setCity(result);
           setQuery("");
           console.log(result);
-          setBg();
+          setBg(result.results[0].urls.regular);
         });
     }
   };
@@ -81,7 +81,7 @@ function App() {
   };
   return (
     <div
-      className="main-background"
+      className="main-bg"
       style={{
         backgroundImage: `url(${bg})`
       }}

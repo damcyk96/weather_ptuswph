@@ -111,6 +111,7 @@ function App() {
             <div className="weather-box">
               <div className="temp">{Math.round(weather.main.temp)}°C</div>
               <div className="weather">{weather.weather[0].description}</div>
+              <div className="description">{city.results[0].description}</div>
             </div>
           </div>
         ) : (

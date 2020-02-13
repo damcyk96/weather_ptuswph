@@ -1,0 +1,8 @@
+C:\Users\Damian\Documents\Projekty\Studia\blog2019_1\Blog.Utils\bin\Debug\netcoreapp2.2\Blog.Utils.deps.json
+C:\Users\Damian\Documents\Projekty\Studia\blog2019_1\Blog.Utils\bin\Debug\netcoreapp2.2\Blog.Utils.dll
+C:\Users\Damian\Documents\Projekty\Studia\blog2019_1\Blog.Utils\bin\Debug\netcoreapp2.2\Blog.Utils.pdb
+C:\Users\Damian\Documents\Projekty\Studia\blog2019_1\Blog.Utils\obj\Debug\netcoreapp2.2\Blog.Utils.csprojAssemblyReference.cache
+C:\Users\Damian\Documents\Projekty\Studia\blog2019_1\Blog.Utils\obj\Debug\netcoreapp2.2\Blog.Utils.AssemblyInfoInputs.cache
+C:\Users\Damian\Documents\Projekty\Studia\blog2019_1\Blog.Utils\obj\Debug\netcoreapp2.2\Blog.Utils.AssemblyInfo.cs
+C:\Users\Damian\Documents\Projekty\Studia\blog2019_1\Blog.Utils\obj\Debug\netcoreapp2.2\Blog.Utils.dll
+C:\Users\Damian\Documents\Projekty\Studia\blog2019_1\Blog.Utils\obj\Debug\netcoreapp2.2\Blog.Utils.pdb

@@ -1,0 +1,13 @@
+C:\Users\Damian\Documents\Projekty\Studia\blog2019_1\Blog.Infrastructure\bin\Debug\netcoreapp2.2\Blog.Infrastructure.deps.json
+C:\Users\Damian\Documents\Projekty\Studia\blog2019_1\Blog.Infrastructure\bin\Debug\netcoreapp2.2\Blog.Infrastructure.dll
+C:\Users\Damian\Documents\Projekty\Studia\blog2019_1\Blog.Infrastructure\bin\Debug\netcoreapp2.2\Blog.Infrastructure.pdb
+C:\Users\Damian\Documents\Projekty\Studia\blog2019_1\Blog.Infrastructure\bin\Debug\netcoreapp2.2\Blog.Models.dll
+C:\Users\Damian\Documents\Projekty\Studia\blog2019_1\Blog.Infrastructure\bin\Debug\netcoreapp2.2\Blog.Utils.dll
+C:\Users\Damian\Documents\Projekty\Studia\blog2019_1\Blog.Infrastructure\bin\Debug\netcoreapp2.2\Blog.Models.pdb
+C:\Users\Damian\Documents\Projekty\Studia\blog2019_1\Blog.Infrastructure\bin\Debug\netcoreapp2.2\Blog.Utils.pdb
+C:\Users\Damian\Documents\Projekty\Studia\blog2019_1\Blog.Infrastructure\obj\Debug\netcoreapp2.2\Blog.Infrastructure.csprojAssemblyReference.cache
+C:\Users\Damian\Documents\Projekty\Studia\blog2019_1\Blog.Infrastructure\obj\Debug\netcoreapp2.2\Blog.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Damian\Documents\Projekty\Studia\blog2019_1\Blog.Infrastructure\obj\Debug\netcoreapp2.2\Blog.Infrastructure.AssemblyInfo.cs
+C:\Users\Damian\Documents\Projekty\Studia\blog2019_1\Blog.Infrastructure\obj\Debug\netcoreapp2.2\Blog.Infrastructure.csproj.CopyComplete
+C:\Users\Damian\Documents\Projekty\Studia\blog2019_1\Blog.Infrastructure\obj\Debug\netcoreapp2.2\Blog.Infrastructure.dll
+C:\Users\Damian\Documents\Projekty\Studia\blog2019_1\Blog.Infrastructure\obj\Debug\netcoreapp2.2\Blog.Infrastructure.pdb

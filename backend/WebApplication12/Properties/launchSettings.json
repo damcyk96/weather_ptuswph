@@ -20,7 +20,7 @@
     "WebApplication12": {
       "commandName": "Project",
       "launchBrowser": false,
-      "launchUrl": "api/blog",
+      "launchUrl": "api/weather",
       "applicationUrl": "https://localhost:5001;http://localhost:5000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"

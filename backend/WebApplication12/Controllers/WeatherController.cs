@@ -11,11 +11,11 @@ namespace WebApplication12.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class BlogController : ControllerBase
+    public class WeatherController : ControllerBase
     {
         private readonly DatabaseRepository _repository;
         
-        public BlogController(DatabaseRepository repository)
+        public WeatherController(DatabaseRepository repository)
         {
             _repository = repository;
         }

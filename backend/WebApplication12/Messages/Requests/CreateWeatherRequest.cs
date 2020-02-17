@@ -6,7 +6,7 @@ namespace WebApplication12.Messages.Requests
     public class CreateWeatherRequest
     {
         public string Name { get; set; }
-        public float Temperature { get; set; }
+        public decimal Temperature { get; set; }
         public string Description { get; set; }
     }
     

@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
-using Weather.Models.Weather;
 using Weather.Utils.DatabaseSettings;
 using Microsoft.Extensions.Options;
 using MongoDB.Bson.Serialization;
@@ -29,17 +28,7 @@ namespace Blog.Infrastructure
                 x.MapIdMember(y => y.Name);
             });
 
-            BsonClassMap.RegisterClassMap<Author>(x => 
-            {
-                x.AutoMap();
-                x.SetIgnoreExtraElements(true);
-            });
             
-            BsonClassMap.RegisterClassMap<Post>(x => 
-            {
-                x.AutoMap();
-                x.SetIgnoreExtraElements(true);
-            });
         }
 
         private IMongoCollection<T> GetCollection<T>()

@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Blog.Infrastructure;
-using Weather.Infrastructure;
 using Microsoft.AspNetCore.Mvc;
 using WebApplication12.Messages.Requests;
 using WebApplication12.Messages.Responses;
@@ -26,16 +25,16 @@ namespace WebApplication12.Controllers
         {
             return _repository
                 .GetWeatherData()
-                .Select(x => new WeatherResponse(x.Name, x.Description,x.Temperature))
+                .Select(x => new WeatherResponse(x.Name, x.Temperature,x.Description))
                 .ToArray();
         }
 
         [HttpGet("{city}")]
-        public ActionResult<WeatherResponse> Get(Guid id)
+        public ActionResult<WeatherResponse> Get(string name)
         {
             var weather = _repository
                 .GetWeatherData()
-                .FirstOrDefault(x => x.Id == id);
+                .FirstOrDefault(x => x.Name == name);
 
             if (weather == null)
                 return NotFound();

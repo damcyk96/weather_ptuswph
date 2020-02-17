@@ -18,9 +18,7 @@
         <e p="WeatherApp.Infrastructure.csproj" t="IncludeRecursive" />
       </e>
       <e p="WeatherApp.Models" t="IncludeRecursive">
-        <e p="Author.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
-        <e p="Blog.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp2.2" t="Include">
@@ -28,7 +26,7 @@
             </e>
           </e>
         </e>
-        <e p="Post.cs" t="Include" />
+        <e p="Weather.cs" t="Include" />
         <e p="WeatherApp.Models.csproj" t="IncludeRecursive" />
       </e>
       <e p="WeatherApp.Utils" t="IncludeRecursive">
@@ -50,18 +48,14 @@
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
-          <e p="BlogController.cs" t="Include" />
-          <e p="PostsController.cs" t="Include" />
+          <e p="WeatherController.cs" t="Include" />
         </e>
         <e p="Messages" t="Include">
           <e p="Requests" t="Include">
-            <e p="CreateBlogRequest.cs" t="Include" />
-            <e p="CreatePostRequest.cs" t="Include" />
+            <e p="CreateWeatherRequest.cs" t="Include" />
           </e>
           <e p="Responses" t="Include">
-            <e p="BlogResponse.cs" t="Include" />
-            <e p="PostDetailsResponse.cs" t="Include" />
-            <e p="PostListResponse.cs" t="Include" />
+            <e p="WeatherResponse.cs" t="Include" />
           </e>
         </e>
         <e p="obj" t="ExcludeRecursive">

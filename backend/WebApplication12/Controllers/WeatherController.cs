@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Blog.Infrastructure;
+using Weather.Infrastructure;
 using Microsoft.AspNetCore.Mvc;
 using WebApplication12.Messages.Requests;
 using WebApplication12.Messages.Responses;
@@ -21,18 +21,18 @@ namespace WebApplication12.Controllers
         }
 
         [HttpGet]
-        public ActionResult<ICollection<BlogResponse>> Get()
+        public ActionResult<ICollection<WeatherResponse>> Get()
         {
             return _repository
-                .GetBlogData()
-                .Select(x => new BlogResponse(x.Id, x.Name, x.CreatedOn, x.Author.FirstName, x.Author.LastName))
+                .GetWeatherData()
+                .Select(x => new WeatherResponse(x.Name, x.Description,x.Temperature))
                 .ToArray();
         }
 
         [HttpGet("{id:guid}")]
         public ActionResult<BlogResponse> Get(Guid id)
         {
-            var blog = _repository
+            var weather = _repository
                 .GetBlogData()
                 .FirstOrDefault(x => x.Id == id);
 

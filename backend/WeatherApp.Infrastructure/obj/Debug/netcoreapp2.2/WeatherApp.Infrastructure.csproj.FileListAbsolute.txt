@@ -1,0 +1,3 @@
+C:\Users\Damian\Documents\Projekty\Studia\AppWeather - PtuswpH\backend\WeatherApp.Infrastructure\obj\Debug\netcoreapp2.2\WeatherApp.Infrastructure.csprojAssemblyReference.cache
+C:\Users\Damian\Documents\Projekty\Studia\AppWeather - PtuswpH\backend\WeatherApp.Infrastructure\obj\Debug\netcoreapp2.2\WeatherApp.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Damian\Documents\Projekty\Studia\AppWeather - PtuswpH\backend\WeatherApp.Infrastructure\obj\Debug\netcoreapp2.2\WeatherApp.Infrastructure.AssemblyInfo.cs

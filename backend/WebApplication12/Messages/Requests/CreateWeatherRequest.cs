@@ -3,22 +3,21 @@ using FluentValidation;
 
 namespace WebApplication12.Messages.Requests
 {
-    public class CreatePostRequest
+    public class CreateWeatherRequest
     {
-        public Guid Id { get; set; }
-        public string Title { get; set; }
-        public string Content { get; set; }
-        public DateTime CreatedOn { get; set; }
+        public string Name { get; set; }
+        public float Temperature { get; set; }
+        public string Description { get; set; }
     }
     
-    public class CreatePostRequestValidator : AbstractValidator<CreatePostRequest>
+    public class CreateWeatherRequestValidator : AbstractValidator<CreateWeatherRequest>
     {
-        public CreatePostRequestValidator()
+        public CreateWeatherRequestValidator()
         {
-            RuleFor(x => x.Id).NotEmpty();
-            RuleFor(x => x.Title).NotEmpty().Length(5, 20);
-            RuleFor(x => x.Content).NotEmpty();
-            RuleFor(x => x.CreatedOn).LessThanOrEqualTo(DateTime.Now);
+            RuleFor(x => x.Name).NotEmpty();
+            RuleFor(x => x.Temperature).NotEmpty();
+            RuleFor(x => x.Description).NotEmpty();
+
         }
     }
 }

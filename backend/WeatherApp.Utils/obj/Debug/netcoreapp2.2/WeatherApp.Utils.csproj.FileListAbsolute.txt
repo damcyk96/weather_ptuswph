@@ -1,0 +1,8 @@
+C:\Users\Damian\Documents\Projekty\Studia\AppWeather - PtuswpH\backend\WeatherApp.Utils\bin\Debug\netcoreapp2.2\WeatherApp.Utils.deps.json
+C:\Users\Damian\Documents\Projekty\Studia\AppWeather - PtuswpH\backend\WeatherApp.Utils\bin\Debug\netcoreapp2.2\WeatherApp.Utils.dll
+C:\Users\Damian\Documents\Projekty\Studia\AppWeather - PtuswpH\backend\WeatherApp.Utils\bin\Debug\netcoreapp2.2\WeatherApp.Utils.pdb
+C:\Users\Damian\Documents\Projekty\Studia\AppWeather - PtuswpH\backend\WeatherApp.Utils\obj\Debug\netcoreapp2.2\WeatherApp.Utils.csprojAssemblyReference.cache
+C:\Users\Damian\Documents\Projekty\Studia\AppWeather - PtuswpH\backend\WeatherApp.Utils\obj\Debug\netcoreapp2.2\WeatherApp.Utils.AssemblyInfoInputs.cache
+C:\Users\Damian\Documents\Projekty\Studia\AppWeather - PtuswpH\backend\WeatherApp.Utils\obj\Debug\netcoreapp2.2\WeatherApp.Utils.AssemblyInfo.cs
+C:\Users\Damian\Documents\Projekty\Studia\AppWeather - PtuswpH\backend\WeatherApp.Utils\obj\Debug\netcoreapp2.2\WeatherApp.Utils.dll
+C:\Users\Damian\Documents\Projekty\Studia\AppWeather - PtuswpH\backend\WeatherApp.Utils\obj\Debug\netcoreapp2.2\WeatherApp.Utils.pdb

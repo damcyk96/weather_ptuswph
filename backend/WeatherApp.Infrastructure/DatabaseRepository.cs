@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
-using Blog.Models;
-using Blog.Utils.DatabaseSettings;
+using Weather.Models.Weather;
+using Weather.Utils.DatabaseSettings;
 using Microsoft.Extensions.Options;
 using MongoDB.Bson.Serialization;
 using MongoDB.Driver;
@@ -22,11 +22,11 @@ namespace Blog.Infrastructure
             var client = new MongoClient(settingsOptions.Value.MongoDbConnection);
             _database = client.GetDatabase(settingsOptions.Value.MongoDatabaseName);
             
-            BsonClassMap.RegisterClassMap<Blog.Models.Blog>(x => 
+            BsonClassMap.RegisterClassMap<Weather.Models.Weather>(x => 
             {
                 x.AutoMap();
                 x.SetIgnoreExtraElements(true);
-                x.MapIdMember(y => y.Id);
+                x.MapIdMember(y => y.Name);
             });
 
             BsonClassMap.RegisterClassMap<Author>(x => 
@@ -47,24 +47,11 @@ namespace Blog.Infrastructure
             return _database.GetCollection<T>(typeof(T).Name);
         }
 
-        public IQueryable<Blog.Models.Blog> GetBlogData()
+        public IQueryable<Weather.Models.Weather> GetWeatherData()
         {
-            return GetCollection<Blog.Models.Blog>().AsQueryable();
+            return GetCollection<Weather.Models.Weather>().AsQueryable();
         }
 
-        public async Task Insert<T>(T value)
-        {
-            await GetCollection<T>().InsertOneAsync(value);
-        }
-
-        public async Task Update<T>(Expression<Func<T, bool>> predicate, T value)
-        {
-            await GetCollection<T>().ReplaceOneAsync(predicate, value);
-        }
-
-        public async Task Delete<T>(Expression<Func<T, bool>> predicate)
-        {
-            await GetCollection<T>().DeleteOneAsync(predicate);
-        }
+        
     }
 }

@@ -1,4 +1,4 @@
-namespace Blog.Utils.DatabaseSettings
+namespace Weather.Utils.DatabaseSettings
 {
     public class Settings
     {

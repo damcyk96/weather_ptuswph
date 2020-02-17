@@ -21,3 +21,26 @@ C:\Users\Damian\Documents\Projekty\Studia\blog2019_1\WebApplication12\obj\Debug\
 C:\Users\Damian\Documents\Projekty\Studia\blog2019_1\WebApplication12\bin\Debug\netcoreapp2.2\appsettings.Development.json
 C:\Users\Damian\Documents\Projekty\Studia\blog2019_1\WebApplication12\bin\Debug\netcoreapp2.2\appsettings.json
 C:\Users\Damian\Documents\Projekty\Studia\blog2019_1\WebApplication12\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\Damian\Documents\Projekty\Studia\AppWeather - PtuswpH\backend\WebApplication12\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\Damian\Documents\Projekty\Studia\AppWeather - PtuswpH\backend\WebApplication12\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\Damian\Documents\Projekty\Studia\AppWeather - PtuswpH\backend\WebApplication12\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\Damian\Documents\Projekty\Studia\AppWeather - PtuswpH\backend\WebApplication12\bin\Debug\netcoreapp2.2\WebApplication12.deps.json
+C:\Users\Damian\Documents\Projekty\Studia\AppWeather - PtuswpH\backend\WebApplication12\bin\Debug\netcoreapp2.2\WebApplication12.runtimeconfig.json
+C:\Users\Damian\Documents\Projekty\Studia\AppWeather - PtuswpH\backend\WebApplication12\bin\Debug\netcoreapp2.2\WebApplication12.runtimeconfig.dev.json
+C:\Users\Damian\Documents\Projekty\Studia\AppWeather - PtuswpH\backend\WebApplication12\bin\Debug\netcoreapp2.2\WebApplication12.dll
+C:\Users\Damian\Documents\Projekty\Studia\AppWeather - PtuswpH\backend\WebApplication12\bin\Debug\netcoreapp2.2\WebApplication12.pdb
+C:\Users\Damian\Documents\Projekty\Studia\AppWeather - PtuswpH\backend\WebApplication12\bin\Debug\netcoreapp2.2\WeatherApp.Infrastructure.dll
+C:\Users\Damian\Documents\Projekty\Studia\AppWeather - PtuswpH\backend\WebApplication12\bin\Debug\netcoreapp2.2\WeatherApp.Models.dll
+C:\Users\Damian\Documents\Projekty\Studia\AppWeather - PtuswpH\backend\WebApplication12\bin\Debug\netcoreapp2.2\WeatherApp.Utils.dll
+C:\Users\Damian\Documents\Projekty\Studia\AppWeather - PtuswpH\backend\WebApplication12\bin\Debug\netcoreapp2.2\WeatherApp.Infrastructure.pdb
+C:\Users\Damian\Documents\Projekty\Studia\AppWeather - PtuswpH\backend\WebApplication12\bin\Debug\netcoreapp2.2\WeatherApp.Models.pdb
+C:\Users\Damian\Documents\Projekty\Studia\AppWeather - PtuswpH\backend\WebApplication12\bin\Debug\netcoreapp2.2\WeatherApp.Utils.pdb
+C:\Users\Damian\Documents\Projekty\Studia\AppWeather - PtuswpH\backend\WebApplication12\obj\Debug\netcoreapp2.2\WebApplication12.csprojAssemblyReference.cache
+C:\Users\Damian\Documents\Projekty\Studia\AppWeather - PtuswpH\backend\WebApplication12\obj\Debug\netcoreapp2.2\WebApplication12.RazorAssemblyInfo.cache
+C:\Users\Damian\Documents\Projekty\Studia\AppWeather - PtuswpH\backend\WebApplication12\obj\Debug\netcoreapp2.2\WebApplication12.RazorAssemblyInfo.cs
+C:\Users\Damian\Documents\Projekty\Studia\AppWeather - PtuswpH\backend\WebApplication12\obj\Debug\netcoreapp2.2\WebApplication12.AssemblyInfoInputs.cache
+C:\Users\Damian\Documents\Projekty\Studia\AppWeather - PtuswpH\backend\WebApplication12\obj\Debug\netcoreapp2.2\WebApplication12.AssemblyInfo.cs
+C:\Users\Damian\Documents\Projekty\Studia\AppWeather - PtuswpH\backend\WebApplication12\obj\Debug\netcoreapp2.2\WebApplication12.RazorTargetAssemblyInfo.cache
+C:\Users\Damian\Documents\Projekty\Studia\AppWeather - PtuswpH\backend\WebApplication12\obj\Debug\netcoreapp2.2\WebApplication12.csproj.CopyComplete
+C:\Users\Damian\Documents\Projekty\Studia\AppWeather - PtuswpH\backend\WebApplication12\obj\Debug\netcoreapp2.2\WebApplication12.dll
+C:\Users\Damian\Documents\Projekty\Studia\AppWeather - PtuswpH\backend\WebApplication12\obj\Debug\netcoreapp2.2\WebApplication12.pdb

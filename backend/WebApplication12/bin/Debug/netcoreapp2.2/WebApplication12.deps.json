@@ -24,8 +24,6 @@
     ".NETCoreApp,Version=v2.2": {
       "WebApplication12/1.0.0": {
         "dependencies": {
-          "Blog.Infrastructure": "1.0.0",
-          "Blog.Models": "1.0.0",
           "Bogus": "28.3.1",
           "FluentValidation.AspNetCore": "8.5.0",
           "Microsoft.AspNetCore.App": "2.2.0",
@@ -33,7 +31,9 @@
           "Microsoft.Extensions.Options": "2.2.0",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "2.2.0",
           "Microsoft.NETCore.App": "2.2.0",
-          "Swashbuckle.AspNetCore": "5.0.0-rc4"
+          "Swashbuckle.AspNetCore": "5.0.0-rc4",
+          "WeatherApp.Infrastructure": "1.0.0",
+          "WeatherApp.Models": "1.0.0"
         },
         "runtime": {
           "WebApplication12.dll": {}
@@ -485,34 +485,34 @@
           "System.Runtime.Handles": "4.3.0"
         }
       },
-      "Blog.Infrastructure/1.0.0": {
+      "WeatherApp.Infrastructure/1.0.0": {
         "dependencies": {
-          "Blog.Models": "1.0.0",
-          "Blog.Utils": "1.0.0",
           "Microsoft.Extensions.Options": "2.2.0",
-          "MongoDB.Driver": "2.9.2"
+          "MongoDB.Driver": "2.9.2",
+          "WeatherApp.Models": "1.0.0",
+          "WeatherApp.Utils": "1.0.0"
         },
         "runtime": {
-          "Blog.Infrastructure.dll": {}
+          "WeatherApp.Infrastructure.dll": {}
         },
         "compile": {
-          "Blog.Infrastructure.dll": {}
+          "WeatherApp.Infrastructure.dll": {}
         }
       },
-      "Blog.Models/1.0.0": {
+      "WeatherApp.Models/1.0.0": {
         "runtime": {
-          "Blog.Models.dll": {}
+          "WeatherApp.Models.dll": {}
         },
         "compile": {
-          "Blog.Models.dll": {}
+          "WeatherApp.Models.dll": {}
         }
       },
-      "Blog.Utils/1.0.0": {
+      "WeatherApp.Utils/1.0.0": {
         "runtime": {
-          "Blog.Utils.dll": {}
+          "WeatherApp.Utils.dll": {}
         },
         "compile": {
-          "Blog.Utils.dll": {}
+          "WeatherApp.Utils.dll": {}
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -3946,17 +3946,17 @@
       "path": "system.threading.threadpool/4.3.0",
       "hashPath": "system.threading.threadpool.4.3.0.nupkg.sha512"
     },
-    "Blog.Infrastructure/1.0.0": {
+    "WeatherApp.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Blog.Models/1.0.0": {
+    "WeatherApp.Models/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Blog.Utils/1.0.0": {
+    "WeatherApp.Utils/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -6,6 +6,7 @@ namespace WebApplication12.Messages.Requests
     public class CreateWeatherRequest
     {
         public string Name { get; set; }
+        public string Country { get; set; }
         public decimal Temperature { get; set; }
         public string Description { get; set; }
     }
@@ -15,6 +16,7 @@ namespace WebApplication12.Messages.Requests
         public CreateWeatherRequestValidator()
         {
             RuleFor(x => x.Name).NotEmpty();
+            RuleFor(x => x.Country).NotEmpty();
             RuleFor(x => x.Temperature).NotEmpty();
             RuleFor(x => x.Description).NotEmpty();
 

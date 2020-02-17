@@ -25,7 +25,7 @@ namespace WebApplication12.Controllers
         {
             return _repository
                 .GetWeatherData()
-                .Select(x => new WeatherResponse(x.Name, x.Temperature,x.Description))
+                .Select(x => new WeatherResponse(x.Name,x.Country, x.Temperature,x.Description))
                 .ToArray();
         }
 
@@ -39,7 +39,7 @@ namespace WebApplication12.Controllers
             if (weather == null)
                 return NotFound();
             
-            return new WeatherResponse(weather.Name, weather.Temperature, weather.Description);
+            return new WeatherResponse(weather.Name,weather.Country, weather.Temperature, weather.Description);
         }
     }
 }

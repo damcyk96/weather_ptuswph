@@ -1,3 +1,13 @@
 C:\Users\Damian\Documents\Projekty\Studia\AppWeather - PtuswpH\backend\WeatherApp.Infrastructure\obj\Debug\netcoreapp2.2\WeatherApp.Infrastructure.csprojAssemblyReference.cache
 C:\Users\Damian\Documents\Projekty\Studia\AppWeather - PtuswpH\backend\WeatherApp.Infrastructure\obj\Debug\netcoreapp2.2\WeatherApp.Infrastructure.AssemblyInfoInputs.cache
 C:\Users\Damian\Documents\Projekty\Studia\AppWeather - PtuswpH\backend\WeatherApp.Infrastructure\obj\Debug\netcoreapp2.2\WeatherApp.Infrastructure.AssemblyInfo.cs
+C:\Users\Damian\Documents\Projekty\Studia\AppWeather - PtuswpH\backend\WeatherApp.Infrastructure\bin\Debug\netcoreapp2.2\WeatherApp.Infrastructure.deps.json
+C:\Users\Damian\Documents\Projekty\Studia\AppWeather - PtuswpH\backend\WeatherApp.Infrastructure\bin\Debug\netcoreapp2.2\WeatherApp.Infrastructure.dll
+C:\Users\Damian\Documents\Projekty\Studia\AppWeather - PtuswpH\backend\WeatherApp.Infrastructure\bin\Debug\netcoreapp2.2\WeatherApp.Infrastructure.pdb
+C:\Users\Damian\Documents\Projekty\Studia\AppWeather - PtuswpH\backend\WeatherApp.Infrastructure\bin\Debug\netcoreapp2.2\WeatherApp.Models.dll
+C:\Users\Damian\Documents\Projekty\Studia\AppWeather - PtuswpH\backend\WeatherApp.Infrastructure\bin\Debug\netcoreapp2.2\WeatherApp.Utils.dll
+C:\Users\Damian\Documents\Projekty\Studia\AppWeather - PtuswpH\backend\WeatherApp.Infrastructure\bin\Debug\netcoreapp2.2\WeatherApp.Models.pdb
+C:\Users\Damian\Documents\Projekty\Studia\AppWeather - PtuswpH\backend\WeatherApp.Infrastructure\bin\Debug\netcoreapp2.2\WeatherApp.Utils.pdb
+C:\Users\Damian\Documents\Projekty\Studia\AppWeather - PtuswpH\backend\WeatherApp.Infrastructure\obj\Debug\netcoreapp2.2\WeatherApp.Infrastructure.csproj.CopyComplete
+C:\Users\Damian\Documents\Projekty\Studia\AppWeather - PtuswpH\backend\WeatherApp.Infrastructure\obj\Debug\netcoreapp2.2\WeatherApp.Infrastructure.dll
+C:\Users\Damian\Documents\Projekty\Studia\AppWeather - PtuswpH\backend\WeatherApp.Infrastructure\obj\Debug\netcoreapp2.2\WeatherApp.Infrastructure.pdb

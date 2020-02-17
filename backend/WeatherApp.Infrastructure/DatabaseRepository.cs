@@ -38,9 +38,10 @@ namespace Blog.Infrastructure
 
         public IQueryable<Weather.Models.Weather> GetWeatherData()
         {
-            return GetCollection<Weather.Models.Weather>().AsQueryable();
-        }
+            var dd = GetCollection<Weather.Models.Weather>().AsQueryable();
+            return dd;
+        } 
 
-        
+
     }
 }

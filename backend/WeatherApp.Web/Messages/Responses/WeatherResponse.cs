@@ -1,6 +1,6 @@
 using System;
 
-namespace WebApplication12.Messages.Responses
+namespace WeatherApp.Messages.Responses
 {
     public class WeatherResponse
     {

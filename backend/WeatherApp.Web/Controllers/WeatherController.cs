@@ -4,9 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Blog.Infrastructure;
 using Microsoft.AspNetCore.Mvc;
-using WebApplication12.Messages.Responses;
+using WeatherApp.Messages.Responses;
 
-namespace WebApplication12.Controllers
+namespace WeatherApp.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

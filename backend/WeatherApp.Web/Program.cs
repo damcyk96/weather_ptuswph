@@ -7,8 +7,9 @@ using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
+using WeatherApp;
 
-namespace WebApplication12
+namespace WeatherApp
 {
     public class Program
     {

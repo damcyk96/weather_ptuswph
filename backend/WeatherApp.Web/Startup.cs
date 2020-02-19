@@ -14,10 +14,10 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
 using Weather.Utils.DatabaseSettings;
-using WebApplication12.Controllers;
+using WeatherApp.Controllers;
 
 
-namespace WebApplication12
+namespace WeatherApp
 {
     public class Startup
     {

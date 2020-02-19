@@ -24,21 +24,29 @@ namespace WebApplication12.Controllers
         {
             return _repository
                 .GetWeatherData()
-                .Select(x => new WeatherResponse(x.Description))
+                .Select(x => new WeatherResponse(string.Join(',',
+                        x.Weather.Select(y => y.Description)),
+                    x.City.Name,
+                    x.City.Country,
+                    x.Main.Temp))
                 .ToArray();
         }
 
         [HttpGet("{city}")]
-        public ActionResult<WeatherResponse> Get(string description)
+        public ActionResult<WeatherResponse> Get(string city)
         {
             var weather = _repository
                 .GetWeatherData()
-                .FirstOrDefault(x => x.Description == description);
-
+                .FirstOrDefault(x => x.City.Name.ToLower().Contains(city.ToLower()));
+            
             if (weather == null)
                 return NotFound();
-            
-            return new WeatherResponse(weather.Description);
+
+            return new WeatherResponse(string.Join(',',
+                    weather.Weather.Select(y => y.Description)),
+                weather.City.Name,
+                weather.City.Country,
+                weather.Main.Temp);
         }
     }
 }

@@ -41,7 +41,7 @@ namespace WebApplication12
             
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "WeatherApp", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "WeatherApp.Web", Version = "v1" });
             });
         }
 
@@ -64,7 +64,7 @@ namespace WebApplication12
             // specifying the Swagger JSON endpoint.
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "WeatherApp");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "WeatherApp.Web");
             });
 
             app.UseHttpsRedirection();

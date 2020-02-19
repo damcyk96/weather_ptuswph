@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\Damian\\Documents\\Projekty\\Studia\\AppWeather - PtuswpH\\backend\\WebApplication12\\WebApplication12.csproj",
-    "projectName": "WebApplication12",
-    "projectPath": "C:\\Users\\Damian\\Documents\\Projekty\\Studia\\AppWeather - PtuswpH\\backend\\WebApplication12\\WebApplication12.csproj",
-    "outputPath": "C:\\Users\\Damian\\Documents\\Projekty\\Studia\\AppWeather - PtuswpH\\backend\\WebApplication12\\obj\\",
+    "projectUniqueName": "C:\\Users\\Damian\\Documents\\Projekty\\Studia\\AppWeather - PtuswpH\\backend\\WeatherApp.Web\\WeatherApp.Web.csproj",
+    "projectName": "WeatherApp.Web",
+    "projectPath": "C:\\Users\\Damian\\Documents\\Projekty\\Studia\\AppWeather - PtuswpH\\backend\\WeatherApp.Web\\WeatherApp.Web.csproj",
+    "outputPath": "C:\\Users\\Damian\\Documents\\Projekty\\Studia\\AppWeather - PtuswpH\\backend\\WeatherApp.Web\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

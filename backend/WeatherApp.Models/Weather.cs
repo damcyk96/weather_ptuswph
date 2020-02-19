@@ -1,13 +1,7 @@
-namespace Weather.Models
+namespace Main.Models
 {
-    public class Weather
+    public class Main
     {
-        public string Name { get; set; }
-        public string Country { get; set; }
-
-        public decimal Temperature { get; set; }
-        public string Description { get; set; }
-
-        
+        public decimal Temp { get; set; }
     }
 }

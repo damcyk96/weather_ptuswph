@@ -1,7 +1,7 @@
-namespace Main.Models
-{
-    public class Main
-    {
-        public decimal Temp { get; set; }
-    }
-}
+namespace Weather.Models
+ {
+     public class Weather
+     {
+         public string Description { get; set; }
+     }
+ }

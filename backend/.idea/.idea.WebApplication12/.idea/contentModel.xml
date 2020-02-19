@@ -19,6 +19,8 @@
       </e>
       <e p="WeatherApp.Models" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
+        <e p="City.cs" t="Include" />
+        <e p="Main.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp2.2" t="Include">
@@ -51,10 +53,9 @@
           <e p="WeatherController.cs" t="Include" />
         </e>
         <e p="Messages" t="Include">
-          <e p="Requests" t="Include">
-            <e p="CreateWeatherRequest.cs" t="Include" />
-          </e>
           <e p="Responses" t="Include">
+            <e p="CityResponses.cs" t="Include" />
+            <e p="MainResponses.cs" t="Include" />
             <e p="WeatherResponse.cs" t="Include" />
           </e>
         </e>

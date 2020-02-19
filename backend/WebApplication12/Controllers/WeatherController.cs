@@ -4,7 +4,6 @@ using System.Linq;
 using System.Threading.Tasks;
 using Blog.Infrastructure;
 using Microsoft.AspNetCore.Mvc;
-using WebApplication12.Messages.Requests;
 using WebApplication12.Messages.Responses;
 
 namespace WebApplication12.Controllers
@@ -25,21 +24,21 @@ namespace WebApplication12.Controllers
         {
             return _repository
                 .GetWeatherData()
-                .Select(x => new WeatherResponse(x.Name,x.Country, x.Temperature,x.Description))
+                .Select(x => new WeatherResponse(x.Description))
                 .ToArray();
         }
 
         [HttpGet("{city}")]
-        public ActionResult<WeatherResponse> Get(string name)
+        public ActionResult<WeatherResponse> Get(string description)
         {
             var weather = _repository
                 .GetWeatherData()
-                .FirstOrDefault(x => x.Name == name);
+                .FirstOrDefault(x => x.Description == description);
 
             if (weather == null)
                 return NotFound();
             
-            return new WeatherResponse(weather.Name,weather.Country, weather.Temperature, weather.Description);
+            return new WeatherResponse(weather.Description);
         }
     }
 }

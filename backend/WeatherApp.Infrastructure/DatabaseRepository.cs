@@ -25,7 +25,7 @@ namespace Blog.Infrastructure
             {
                 x.AutoMap();
                 x.SetIgnoreExtraElements(true);
-                x.MapIdMember(y => y.Name);
+                x.MapIdMember(y => y.Description);
             });
 
             
@@ -38,7 +38,7 @@ namespace Blog.Infrastructure
 
         public IQueryable<Weather.Models.Weather> GetWeatherData()
         {
-            var dd = GetCollection<Weather.Models.Weather>().AsQueryable();
+            var dd=   GetCollection<Weather.Models.Weather>().AsQueryable();
             return dd;
         } 
 

@@ -15,7 +15,6 @@ using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
 using Weather.Utils.DatabaseSettings;
 using WebApplication12.Controllers;
-using WebApplication12.Messages.Requests;
 
 
 namespace WebApplication12

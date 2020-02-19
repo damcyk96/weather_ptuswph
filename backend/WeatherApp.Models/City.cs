@@ -1,13 +1,8 @@
-namespace Weather.Models
+namespace City.Models
 {
-    public class Weather
+    public class City
     {
         public string Name { get; set; }
         public string Country { get; set; }
-
-        public decimal Temperature { get; set; }
-        public string Description { get; set; }
-
-        
     }
 }

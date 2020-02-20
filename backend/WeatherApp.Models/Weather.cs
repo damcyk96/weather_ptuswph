@@ -14,13 +14,13 @@ namespace Weather.Models
 
     public class City
     {
-        public string Name { get; set; }
-        public string Country { get; set; }
+        public static string Name { get; set; }
+        public static string Country { get; set; }
     }
 
     public class Main
     {
-        public decimal Temp { get; set; }   
+        public static decimal Temp { get; set; }   
     }
 
     public class Weather

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Blog.Infrastructure;
 using Microsoft.AspNetCore.Mvc;
+using Weather.Models;
 using WeatherApp.Messages.Responses;
 
 namespace WeatherApp.Controllers
@@ -25,10 +26,10 @@ namespace WeatherApp.Controllers
             return _repository
                 .GetWeatherData()
                 .Select(x => new WeatherResponse(string.Join(',',
-                        x.Weather.Select(y => y.Description)),
-                    x.City.Name,
-                    x.City.Country,
-                    x.Main.Temp))
+                        x.Description.Select(y => y.Weather.Description)),
+                    City.Name,
+                    City.Country,
+                    Main.Temp))
                 .ToArray();
         }
 
@@ -37,16 +38,16 @@ namespace WeatherApp.Controllers
         {
             var weather = _repository
                 .GetWeatherData()
-                .FirstOrDefault(x => x.City.Name.ToLower().Contains(city.ToLower()));
+                .FirstOrDefault(x => City.Name.ToLower().Contains(city.ToLower()));
             
             if (weather == null)
                 return NotFound();
 
             return new WeatherResponse(string.Join(',',
-                    weather.Weather.Select(y => y.Description)),
-                weather.City.Name,
-                weather.City.Country,
-                weather.Main.Temp);
+                    Weather.Select(y => y.Description)),
+                City.Name,
+                City.Country,
+                Main.Temp);
         }
     }
 }
